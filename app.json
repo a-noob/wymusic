@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/catalogue/catalogue",
+    "pages/mine/mine",
+    "pages/playmc/playmc",
+    "pages/login/login",
+    "pages/mineList/myMusicList/mymusiclist",
+    "pages/mineList/myCollection/mycollection",
+    "pages/mineList/myLike/mylike"
+  ],
+  "window": {
+    "backgroundTextStyle": "",
+    "navigationBarBackgroundColor": "#444",
+    "navigationBarTitleText": "网难云音乐",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#444",
+    "selectedColor": "#18BE9C",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "position": "top",
+    "list": [
+      {
+        "text": "音乐馆",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "热门推荐",
+        "pagePath": "pages/catalogue/catalogue"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  }
+}

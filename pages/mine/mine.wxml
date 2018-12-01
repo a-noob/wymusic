@@ -1,0 +1,21 @@
+<view style='background:url({{userCont.backgroundUrl}}) center no-repeat;'>
+  <view class='userInfo'>
+    <image src='{{userCont.avatarUrl}}' class='useravatar'></image>
+    <text class='nickname'>{{userCont.nickname}}</text>
+  </view>
+</view>
+<view class='menubar'>
+  <view class='list' bindtap="toMusicList">
+    <text class='iconfont icon-Compactdisc'></text>
+    <text class='listname'>我的歌单</text>
+  </view>
+  <view class='list' bindtap="toCollection">
+    <text class='iconfont icon-Like'></text>
+    <text class='listname'>收藏歌手</text>
+  </view>
+  <view class='list' bindtap="toMyLike">
+    <text class='iconfont icon-Headphones'></text>
+    <text class='listname'>关注列表</text>
+  </view>
+</view>
+<view class='maintitle'>播放记录</view>

@@ -1,0 +1,50 @@
+/* pages/mineList/myMusicList/mymusiclist.wxss */
+.muscilist{
+  height:100rpx;
+  padding:15rpx 0;
+  border-bottom: 1px dotted #ccc;
+}
+.listimg{
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: middle;
+}
+.title{
+  display: inline-block;
+  width:480rpx;
+  vertical-align:top;
+  margin-left:20rpx;
+}
+.uptitle{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 34rpx;
+  margin-top:5rpx;
+}
+.downtitle{
+  display: inline-block;
+  margin-right:10rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}
+.maintitle{
+  height: 60rpx;
+  line-height: 60rpx;
+  border-left: 4px solid #444;
+  padding-left: 10rpx;
+  border-bottom: 1px solid #ccc;
+}
+.titlelist{
+  width: 32%;
+  text-align: center;
+  margin-left: 1%;
+  float: left;
+  font-size: 28rpx;
+}
+.titlelist image{
+  width: 100%;
+}

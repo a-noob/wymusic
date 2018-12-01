@@ -1,0 +1,22 @@
+<view>
+  <view class='maintitle'>歌单分类</view>
+  <view wx:for="{{myMusicList}}" wx:for-index="index" wx:for-item="myMusic" class="titlelist">
+    <view bindtap="changeMusicList" data-parmas='{{myMusic.id}}'>
+      <image src='{{myMusic.coverImgUrl}}' mode="widthFix"></image>
+      <view>{{myMusic.name}}</view>
+    </view>
+  </view>
+</view>
+<view class='maintitle'>歌单详情</view>
+<view class="container1">
+    <view wx:for="{{musicList}}" wx:for-index="idx" wx:for-item="music">
+      <view bindtap="toplay" data-parmas='{{music.id}}' class="muscilist">
+        <image class="listimg" src='{{music.al.picUrl}}'></image>
+        <view class="title">
+          <view wx:if="{{music.alia.length == 0}}" class="uptitle">{{music.al.name}}</view>
+          <view wx:elif="{{music.alia.length != 0}}" class="uptitle">{{music.al.name}}({{music.alia}})</view>
+          <view class="downtitle" wx:for="{{music.ar}}" wx:for-index="ids" wx:for-item="singer">{{singer.name}}</view>
+        </view>
+      </view>
+    </view>
+</view>

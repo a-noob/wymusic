@@ -1,0 +1,47 @@
+/* pages/mine/mine.wxss */
+.userInfo{
+  padding:40rpx 0;
+  text-align: center;
+}
+.useravatar{
+  width: 160rpx;
+  height: 160rpx;
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.nickname{
+  display: block;
+  margin-top: 20rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 28rpx;
+}
+.menubar{
+  background:#2c2d31;
+  padding:20rpx 0;
+}
+.menubar .list{
+  width:33%;
+  float:left;
+}
+.list .iconfont{
+  display:block;
+  font-size:60rpx;
+  margin:10rpx 0;
+  text-align:center;
+  color:#18BE9C;
+}
+.listname{
+  font-size: 28rpx;
+  color:#18BE9C;
+  display:block;
+  text-align:center;
+}
+.maintitle{
+  height: 60rpx;
+  line-height: 60rpx;
+  border-left: 4px solid #444;
+  padding-left: 10rpx;
+  border-bottom: 1px solid #ccc;
+}

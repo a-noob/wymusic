@@ -1,0 +1,16 @@
+<view class="container1">
+    手机号：
+    <view class="section">
+        <input type="text" placeholder="请输入手机号" bindinput="userNameInput"/>
+    </view>
+    密码：
+    <view class="section">
+        <input type="password" placeholder="请输入密码" bindinput="passWdInput"/>
+    </view>
+    <view class="section">
+        <input type="button" value="提交" bindtap="loginBtnClick"/>
+        <input type="button" value="返回首页" bindtap="goBack"/>
+    </view>
+</view>
+
+

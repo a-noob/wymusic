@@ -1,0 +1,2 @@
+<audio src="{{musicxq.url}}" id="myAudio" loop controls name="{{misiccontent.al.name}}" poster="{{misiccontent.al.picUrl}}" author="{{singer}}" bindtimeupdate="showWords"></audio>
+<view>{{singtlrc}}</view>
